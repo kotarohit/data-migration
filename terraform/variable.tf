@@ -30,5 +30,5 @@ variable "alert_email_id" {
 variable "repo_url" {
   description = "Repository url to clone into production machine"
   type        = string
-  default     = "https://github.com/kotarohit/data-migration-"
+  default     = "https://github.com/kotarohit/data-migration-.git"
 }
